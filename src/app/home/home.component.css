@@ -1,0 +1,87 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #222;
+	color: #fff;
+  }
+
+  .navbar {
+	background-color: #000;
+  }
+
+  .navbar .navbar-nav .nav-link {
+	color: #fff;
+  }
+
+  .carousel-inner {
+	height: 400px;
+  }
+
+  .carousel-item {
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	max-width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+  }
+
+  .carousel-caption {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .carousel-caption h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+  }
+
+  .carousel-caption p {
+	font-size: 24px;
+	margin-bottom: 40px;
+  }
+
+  .content {
+	padding: 50px 0;
+	text-align: center;
+	background-color: #000;
+  }
+
+  .content h2 {
+	color: #fff;
+	margin-bottom: 20px;
+  }
+
+  .card-deck {
+	margin-bottom: 30px;
+  }
+
+  .card {
+	background-color: #333;
+	color: #fff;
+  }
+
+  footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+  }
+
+  footer p {
+	margin-bottom: 0;
+  }
+
+  .logo img {
+	max-height: 50px;
+	max-width: 800px;
+	object-fit: contain;
+  }
+  .heading {
+	font-size: 25px;
+	font-weight: bold;
+	color:white;
+	text-align: center;
+  }

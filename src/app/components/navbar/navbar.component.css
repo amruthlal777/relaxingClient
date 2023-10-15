@@ -1,0 +1,55 @@
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 550px; /* Adjust the width to fit your logo */
+    height: 60px; /* Adjust the height to fit your logo */
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+
+  mat-toolbar {
+    background-color: black;
+    color: white;
+  }
+
+  mat-toolbar {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107;
+  }
+  
+  .active {
+    color: #ffc107 !important;
+  }
+  /* ::ng-deep .cdk-overlay-dark-backdrop {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  } */
+
+  ::ng-deep .cdk-overlay-dark-backdrop {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
