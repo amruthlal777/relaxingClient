@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Spaces Gallery - Relaxing World</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gallery-container {
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Office Spaces Gallery</h1>
+    </header>
+
+    <div class="container gallery-container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/office/office1.jpg" class="card-img-top" alt="Living Space 1" onclick="openImage('assets/office/office1.jpg')">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/office/office2.jpg" class="card-img-top" alt="Living Space 2">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/office/office3.jpg" class="card-img-top" alt="Living Space 3">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/office/office4.jpg" class="card-img-top" alt="Living Space 4">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/office/office5.jpg" class="card-img-top" alt="Living Space 5">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/office/office6.jpg" class="card-img-top" alt="Living Space 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Relaxing World. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openImage(imagePath) {
+            window.open(imagePath, '_blank');
+        }
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -12,6 +12,13 @@ import { HomeComponent } from './home/home.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 import { AboutModalComponent } from './modal/about-modal/about-modal.component';
+import { ContactModalComponent } from './modal/contact-modal/contact-modal.component';
+import { PortfolioModalComponent } from './modal/portfolio-modal/portfolio-modal.component';
+import { LivingSpacesComponent } from './living-spaces/living-spaces.component';
+import { KitchenComponent } from './kitchen/kitchen.component';
+import { OfficeComponent } from './office/office.component';
+import { CommercialComponent } from './commercial/commercial.component';
+import { ServiceModalComponent } from './modal/service-modal/service-modal.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +26,14 @@ import { AboutModalComponent } from './modal/about-modal/about-modal.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    AboutModalComponent
+    AboutModalComponent,
+    ContactModalComponent,
+    PortfolioModalComponent,
+    LivingSpacesComponent,
+    KitchenComponent,
+    OfficeComponent,
+    CommercialComponent,
+    ServiceModalComponent
   ],
   imports: [
     BrowserModule,
